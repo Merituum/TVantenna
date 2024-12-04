@@ -1,0 +1,13 @@
+{
+   "Author": "Bartosz",
+   "Comment": "",
+   "Last Problem Type": "High Frequency",
+   "Last Solver Type": "HF Time Domain",
+   "Last Solver Type Abb": "t",
+   "Mesh Cells": "2,656,800",
+   "Mesh Type": "Hexahedral",
+   "Modeler Unique ID": "5:antena.cst?bdf4403d6f87badc90d3c4d06cb5e3cc?14695:numberofparameters=29:port=1>mode=1>zre=75>zim=0:::w?k?d?r?d1?l1?d2?l2?d3?l3?d4?l4?d5?l5?d6?l6?d7?l7?d8?l8?d9?l9?d10?l10?d11?l11?d12?l12?l",
+   "ProjectVersion": "'# MWS Version: Version 2024.1 - Oct 16 2023 - ACIS 33.0.1 -",
+   "Results": "Time Domain: S-Parameter",
+   "Version": "3"
+}

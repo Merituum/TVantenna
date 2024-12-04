@@ -1,0 +1,150 @@
+{
+    "parameters": [
+        {
+            "expr": "1650",
+            "name": "L",
+            "value": "1650"
+        },
+        {
+            "expr": "500",
+            "name": "l12",
+            "value": "500"
+        },
+        {
+            "expr": "250",
+            "name": "d12",
+            "value": "250"
+        },
+        {
+            "expr": "405",
+            "name": "l11",
+            "value": "405"
+        },
+        {
+            "expr": "542",
+            "name": "d11",
+            "value": "542"
+        },
+        {
+            "expr": "328",
+            "name": "l10",
+            "value": "328"
+        },
+        {
+            "expr": "778",
+            "name": "d10",
+            "value": "778"
+        },
+        {
+            "expr": "266",
+            "name": "l9",
+            "value": "266"
+        },
+        {
+            "expr": "969",
+            "name": "d9",
+            "value": "969"
+        },
+        {
+            "expr": "215",
+            "name": "l8",
+            "value": "215"
+        },
+        {
+            "expr": "1124",
+            "name": "d8",
+            "value": "1124"
+        },
+        {
+            "expr": "174",
+            "name": "l7",
+            "value": "174"
+        },
+        {
+            "expr": "1250",
+            "name": "d7",
+            "value": "1250"
+        },
+        {
+            "expr": "141",
+            "name": "l6",
+            "value": "141"
+        },
+        {
+            "expr": "1352",
+            "name": "d6",
+            "value": "1352"
+        },
+        {
+            "expr": "114",
+            "name": "l5",
+            "value": "114"
+        },
+        {
+            "expr": "1434",
+            "name": "d5",
+            "value": "1434"
+        },
+        {
+            "expr": "93",
+            "name": "l4",
+            "value": "93"
+        },
+        {
+            "expr": "1501",
+            "name": "d4",
+            "value": "1501"
+        },
+        {
+            "expr": "75",
+            "name": "l3",
+            "value": "75"
+        },
+        {
+            "expr": "1555",
+            "name": "d3",
+            "value": "1555"
+        },
+        {
+            "expr": "61",
+            "name": "l2",
+            "value": "61"
+        },
+        {
+            "expr": "1598",
+            "name": "d2",
+            "value": "1598"
+        },
+        {
+            "expr": "49",
+            "name": "l1",
+            "value": "49"
+        },
+        {
+            "expr": "1634",
+            "name": "d1",
+            "value": "1634"
+        },
+        {
+            "expr": "2",
+            "name": "r",
+            "value": "2"
+        },
+        {
+            "expr": "10",
+            "name": "d",
+            "value": "10"
+        },
+        {
+            "expr": "20",
+            "name": "K",
+            "value": "20"
+        },
+        {
+            "expr": "L-1640",
+            "name": "W",
+            "value": "10"
+        }
+    ],
+    "version": 1
+}
