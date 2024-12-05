@@ -4,8 +4,8 @@
 [PCB_IMPORT: False]
 [PCB_IMPORT_NEW: False]
 [DISABLE_FAST_LOAD: False]
-[BBOX:-681.34850470588231 681.34850470588231 -201.34850470588233 181.34850470588233 -176.34850470588233 1826.3485047058823]
-[BBOX_STRUCTURE:-505 505 -25 5 0 1650]
+[BBOX:-681.34850470588231 681.34850470588231 -204.34850470588233 181.34850470588233 -176.34850470588233 1836.3485047058823]
+[BBOX_STRUCTURE:-505 505 -28 5 0 1660]
 [UNITS]
      .SetUnit "Length", "mm"
      .SetUnit "Temperature", "degC"
@@ -444,8 +444,8 @@ Solver.FrequencyRange "0.15", "0.7"
      .Current "1.0"
      .Monitor "True"
      .Radius "0"
-     .SetP1 "False", "0", "0", "1650"
-     .SetP2 "False", "0", "-20", "1650"
+     .SetP1 "False", "0", "0", "1660"
+     .SetP2 "False", "0", "-23", "1660"
      .InvertDirection "False"
      .LocalCoordinates "False"
      .Wire ""

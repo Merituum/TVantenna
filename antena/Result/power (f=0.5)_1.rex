@@ -8,7 +8,7 @@
     </PrimaryResults>
   </SimulationProperties>
   <ResultDataType vector="1" complex="0" timedomain="0" frequencymap="0"/>
-  <SimulationDomain min="-681.348511 -201.348511 -176.348511" max="681.348511 181.348511 1826.34851"/>
+  <SimulationDomain min="-681.348511 -204.348511 -176.348511" max="681.348511 181.348511 1836.34851"/>
   <PlotSettings Plot="4" ignore_symmetry="0" deformation="0" enforce_culling="0" integer_values="0" combine="CombineNone" default_arrow_type="ARROWS" default_scaling="NONE"/>
   <Source type="POSTPROCESSING"/>
   <SpecialMaterials>

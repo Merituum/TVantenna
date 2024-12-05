@@ -1,9 +1,9 @@
 {
     "parameters": [
         {
-            "expr": "1650",
+            "expr": "1660",
             "name": "L",
-            "value": "1650"
+            "value": "1660"
         },
         {
             "expr": "500",
@@ -126,9 +126,9 @@
             "value": "1634"
         },
         {
-            "expr": "2",
+            "expr": "2.5",
             "name": "r",
-            "value": "2"
+            "value": "2.5"
         },
         {
             "expr": "10",
@@ -136,14 +136,14 @@
             "value": "10"
         },
         {
-            "expr": "20",
+            "expr": "23",
             "name": "K",
-            "value": "20"
+            "value": "23"
         },
         {
             "expr": "L-1640",
             "name": "W",
-            "value": "10"
+            "value": "20"
         }
     ],
     "version": 1

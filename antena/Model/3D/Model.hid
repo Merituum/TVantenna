@@ -23,9 +23,7 @@ false
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:solid1"
-
 [end]content
 [start]recover_picks
 1
@@ -41,9 +39,7 @@ Solid.Delete "component1:solid1"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#12"
-
 [end]content
 [start]recover_picks
 1
@@ -59,9 +55,7 @@ Solid.Delete "component1:#12"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#11"
-
 [end]content
 [start]recover_picks
 1
@@ -77,9 +71,7 @@ Solid.Delete "component1:#11"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#10"
-
 [end]content
 [start]recover_picks
 1
@@ -95,9 +87,7 @@ Solid.Delete "component1:#10"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#9"
-
 [end]content
 [start]recover_picks
 1
@@ -113,9 +103,7 @@ Solid.Delete "component1:#9"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#8"
-
 [end]content
 [start]recover_picks
 1
@@ -131,9 +119,7 @@ Solid.Delete "component1:#8"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#7"
-
 [end]content
 [start]recover_picks
 1
@@ -149,9 +135,7 @@ Solid.Delete "component1:#7"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#6"
-
 [end]content
 [start]recover_picks
 1
@@ -167,9 +151,7 @@ Solid.Delete "component1:#6"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#5"
-
 [end]content
 [start]recover_picks
 1
@@ -185,9 +167,7 @@ Solid.Delete "component1:#5"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#4"
-
 [end]content
 [start]recover_picks
 1
@@ -203,9 +183,7 @@ Solid.Delete "component1:#4"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#3"
-
 [end]content
 [start]recover_picks
 1
@@ -221,9 +199,7 @@ Solid.Delete "component1:#3"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#2"
-
 [end]content
 [start]recover_picks
 1
@@ -239,9 +215,7 @@ Solid.Delete "component1:#2"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:#1"
-
 [end]content
 [start]recover_picks
 1
@@ -257,9 +231,7 @@ Solid.Delete "component1:#1"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:12"
-
 [end]content
 [start]recover_picks
 1
@@ -275,9 +247,7 @@ Solid.Delete "component1:12"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:11"
-
 [end]content
 [start]recover_picks
 1
@@ -293,9 +263,7 @@ Solid.Delete "component1:11"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:10"
-
 [end]content
 [start]recover_picks
 1
@@ -311,9 +279,7 @@ Solid.Delete "component1:10"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:9"
-
 [end]content
 [start]recover_picks
 1
@@ -329,9 +295,7 @@ Solid.Delete "component1:9"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:8"
-
 [end]content
 [start]recover_picks
 1
@@ -347,9 +311,7 @@ Solid.Delete "component1:8"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:7"
-
 [end]content
 [start]recover_picks
 1
@@ -365,9 +327,7 @@ Solid.Delete "component1:7"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:6"
-
 [end]content
 [start]recover_picks
 1
@@ -383,9 +343,7 @@ Solid.Delete "component1:6"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:5"
-
 [end]content
 [start]recover_picks
 1
@@ -401,9 +359,7 @@ Solid.Delete "component1:5"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:4"
-
 [end]content
 [start]recover_picks
 1
@@ -419,9 +375,7 @@ Solid.Delete "component1:4"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:3"
-
 [end]content
 [start]recover_picks
 1
@@ -437,9 +391,7 @@ Solid.Delete "component1:3"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:2"
-
 [end]content
 [start]recover_picks
 1
@@ -455,9 +407,7 @@ Solid.Delete "component1:2"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:1"
-
 [end]content
 [start]recover_picks
 1
@@ -501,19 +451,35 @@ Solid.Delete "component1:1"
 34
 [end]block_index
 [start]command
-
 '@ define discrete port: 1
  (undo)
 [end]command
 [start]content
 Port.Delete "1"
-
 [end]content
 [start]recover_picks
 1
 [end]recover_picks
 [start]delete_solids
 0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+40
+[end]block_index
+[start]command
+[end]command
+[start]content
+
+Solid.Delete "component1:solid2"
+
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
 [end]delete_solids
 [end]undo_item
 [end]history_fast_undo

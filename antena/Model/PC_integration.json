@@ -7,7 +7,7 @@
       {
          "name": "L",
          "type": "float",
-         "value": 1650.0
+         "value": 1660.0
       },
       {
          "name": "l12",
@@ -132,7 +132,7 @@
       {
          "name": "r",
          "type": "float",
-         "value": 2.0
+         "value": 2.5
       },
       {
          "name": "d",
@@ -142,7 +142,7 @@
       {
          "name": "K",
          "type": "float",
-         "value": 20.0
+         "value": 23.0
       }
    ],
    "outputVariables": []
