@@ -1,2 +1,2 @@
-FeatureKeywords:string:mcalc:facets:qq:acceleration:multi-thread, acceleration:gpu:synchronous_communication, acceleration:cpu:10, acceleration:cpu:bg:std, acceleration:cpudevices:1, acceleration:gpu, acceleration:gpu:1, acceleration:gpu:HW_PLW, acceleration:gpu:HW_PML, acceleration:gpu:SW_FF, acceleration:gpu:UNVERIFIED, acceleration:gpu:auto, acceleration:uniblock
+FeatureKeywords:string:mcalc:facets:qq:acceleration:multi-thread, acceleration:gpu:HW_freq, acceleration:gpu:SW_FF, acceleration:gpu:SW_freq, acceleration:gpu:synchronous_communication, acceleration:cpu:10, acceleration:cpudevices:1, acceleration:gpu, acceleration:gpu:1, acceleration:gpu:Ellesmere, acceleration:gpu:HW_PLW, acceleration:gpu:HW_PML, acceleration:gpu:auto, acceleration:uniblock
 ---

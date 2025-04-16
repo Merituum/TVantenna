@@ -3,7 +3,7 @@
   <MetaGeometryFile filename="model.gex" lod="1"/>
   <SimulationProperties fieldname="h-field (f=0.2) [1]" frequency="0.20000000000000001" encoded_unit="&amp;U:A^1.:m^-1" quantity="h-field" fieldtype="H-Field" fieldscaling="PEAK" dB_Amplitude="20">
     <SecondaryResults>
-      <SecondaryResult name="power (f=0.2)_1.rex"/>
+      <SecondaryResult name="power (f=0.2) [1]_1.rex"/>
     </SecondaryResults>
   </SimulationProperties>
   <ResultDataType vector="1" complex="1" timedomain="0" frequencymap="0"/>
@@ -15,6 +15,7 @@
     <Material name="Aluminum" type="FIELDFREE"/>
     <Material name="PEC" type="FIELDFREE"/>
   </SpecialMaterials>
+  <SupplementalMesh/>
   <AuxGeometryFile/>
   <AuxResultFile/>
   <FieldFreeNodes/>
@@ -26,6 +27,7 @@
   <TimeSampling/>
   <LocalAxes/>
   <MeshViewSettings/>
+  <WaveguidePort/>
   <ResultGroups num_steps="1" transformation="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" process_mesh_group="0">
     <SharedDataWith>
       <Result treepath="2D/3D Results\Surface Current\surface current (f=0.2) [1]" rexname="h-field (f=0.2)_1,1_m3d_sct.rex"/>

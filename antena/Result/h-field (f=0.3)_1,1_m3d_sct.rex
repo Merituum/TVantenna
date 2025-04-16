@@ -11,6 +11,7 @@
     <Material name="Aluminum" type="FIELDFREE"/>
     <Material name="PEC" type="FIELDFREE"/>
   </SpecialMaterials>
+  <SupplementalMesh/>
   <AuxGeometryFile/>
   <AuxResultFile/>
   <FieldFreeNodes/>
@@ -22,6 +23,7 @@
   <TimeSampling/>
   <LocalAxes/>
   <MeshViewSettings/>
+  <WaveguidePort/>
   <ResultGroups num_steps="1" transformation="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" process_mesh_group="0">
     <SharedDataWith>
       <Result treepath="2D/3D Results\H-Field\h-field (f=0.3) [1]" rexname="h-field (f=0.3)_1,1_m3d.rex"/>

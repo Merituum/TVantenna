@@ -1,0 +1,19 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 2025-04-16 15:18:15
+
+  Evaluating 'Gain,3D,Max. Value (Solid Angle)': 5.252 s
+
+  Total time: 5 s  ( = 0 h, 0 m, 5 s )
+
+Template based post-processing finished at: 2025-04-16 15:18:21
+----------------------------------------------------------------------------------------

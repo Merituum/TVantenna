@@ -1,5 +1,5 @@
 {
-    "date": "2024-12-05, 22:37:19, Środkowoeuropejski czas stand.",
+    "date": "2025-04-16, 3:18:23 PM, Srodkowoeuropejski czas letni",
     "solver_runs_and_tasks": {
         "module_name": "standard simulation project",
         "solver_run": {
@@ -37,13 +37,13 @@
             "task_name": "solver run",
             "time_info": {
                 "details": {
-                    "discretizer": 84,
-                    "solver": 222
+                    "discretizer": 77,
+                    "solver": 407
                 },
-                "run_time": 344
+                "run_time": 511
             }
         }
     },
-    "studio-version": "2024.1 Release from 2023-10-16 (change 1181985)",
+    "studio-version": "2025.0 Release from 2024-08-30 (change 1315043)",
     "version": 1
 }

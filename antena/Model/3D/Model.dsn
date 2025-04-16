@@ -73,6 +73,17 @@ mon_nfSteps: ""
 *** endmonitor
 
 *** newmonitor
+monname: "farfield (f=0.235)"
+nmonfrequencies: 1
+monfrequencies: "0.23499999999999999" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
 monname: "farfield (f=0.3)"
 nmonfrequencies: 1
 monfrequencies: "0.29999999999999999" 
@@ -121,6 +132,17 @@ monname: "farfield (f=0.6)"
 nmonfrequencies: 1
 monfrequencies: "0.59999999999999998" 
 montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "field-source (f=0.678)"
+nmonfrequencies: 1
+monfrequencies: "0.67800000000000005" 
+montype: 86
 mondomain: 1
 mon_fmin: ""
 mon_fmax: ""

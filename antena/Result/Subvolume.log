@@ -1,0 +1,4 @@
+Solver_HF_TD_AMD64 @ DESKTOP-KD8FOS5:  =========================================================================================================
+                                       8560.00 ms | --> peak | SV-crop-all | Outside MCalcResultIdentification (Solver) | 517.43 MB |  0.0000 MB
+                                       8612.00 ms |  --> 2nd | SV-crop-all | Outside MCalcResultIdentification (Solver) | 517.26 MB | -0.1638 MB
+                                       =========================================================================================================

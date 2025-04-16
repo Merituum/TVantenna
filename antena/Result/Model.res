@@ -1,5 +1,5 @@
 MWS Result File Version 20150206
-size=i:188
+size=i:196
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -16,6 +16,14 @@ creation=s:internal
 lifetime=s:rebuild
 result=s:1
 files=s:ZRef1(1)_orig.sig
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:field-source (f=0.678)_1.fsm
 
 type=s:DATA_FOLDER
 problemclass=s::8:1000
@@ -297,14 +305,6 @@ lifetime=s:rebuild
 result=s:0
 files=s:ml_info.dat
 
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-files=s:MCalcAccess.log
-
 type=s:FOLDER
 problemclass=s::8:1000
 visibility=s:visible
@@ -381,7 +381,6 @@ lifetime=s:solverstart
 result=s:0
 treepath=s:Mesh\Information\PBA
 files=s:PBAMeshFeedback.rex
-ylabel=s:Mesh Feedback
 
 type=s:MESH_FEEDBACK
 problemclass=s::8:1000
@@ -391,7 +390,6 @@ lifetime=s:solverstart
 result=s:0
 treepath=s:Mesh\Information\Connectivity
 files=s:PBAConnectivity.rex
-ylabel=s:Mesh Feedback
 
 type=s:MESH_FEEDBACK
 problemclass=s::8:1000
@@ -401,7 +399,6 @@ lifetime=s:solverstart
 result=s:0
 treepath=s:Mesh\Information\PBADetails
 files=s:PBAMeshDetails.rex
-ylabel=s:Mesh Feedback
 
 type=s:XYSIGNAL
 subtype=s:user
@@ -829,6 +826,16 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
+treepath=s:Farfields\farfield (f=0.235) [1]
+files=s:farfield (f=0.235)_1.ffm
+ylabel=s:farfield (f=0.235) [1]
+
+type=s:FARFIELD
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
 treepath=s:Farfields\farfield (f=0.3) [1]
 files=s:farfield (f=0.3)_1.ffm
 ylabel=s:farfield (f=0.3) [1]
@@ -1023,6 +1030,33 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
+treepath=s:Farfields\Farfield Cuts\Excitation [1]\Phi=0\farfield (f=0.235)
+files=s:Farfield_Cut_farfield (f=0.235)_Phi=0_[1]_0.sig
+
+type=s:FARFIELD1DCUT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:Farfields\Farfield Cuts\Excitation [1]\Phi=90\farfield (f=0.235)
+files=s:Farfield_Cut_farfield (f=0.235)_Phi=90_[1]_0.sig
+
+type=s:FARFIELD1DCUT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:Farfields\Farfield Cuts\Excitation [1]\Theta=90\farfield (f=0.235)
+files=s:Farfield_Cut_farfield (f=0.235)_Theta=90_[1]_0.sig
+
+type=s:FARFIELD1DCUT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
 treepath=s:Farfields\Farfield Cuts\Excitation [1]\Phi=0\farfield (f=0.3)
 files=s:Farfield_Cut_farfield (f=0.3)_Phi=0_[1]_0.sig
 
@@ -1186,64 +1220,9 @@ creation=s:external
 lifetime=s:rebuild
 result=s:1
 user_delete=s:1
-treepath=s:2D/3D Results\Power Flow\power (f=0.7) [1]
-files=s:power (f=0.7)_1,1.m3d
-files=s:power (f=0.7)_1.rex
-
-type=s:PFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:rebuild
-result=s:1
-user_delete=s:1
-treepath=s:2D/3D Results\Power Flow\power (f=0.6) [1]
-files=s:power (f=0.6)_1,1.m3d
-files=s:power (f=0.6)_1.rex
-
-type=s:PFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:rebuild
-result=s:1
-user_delete=s:1
-treepath=s:2D/3D Results\Power Flow\power (f=0.5) [1]
-files=s:power (f=0.5)_1,1.m3d
-files=s:power (f=0.5)_1.rex
-
-type=s:PFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:rebuild
-result=s:1
-user_delete=s:1
-treepath=s:2D/3D Results\Power Flow\power (f=0.425) [1]
-files=s:power (f=0.425)_1,1.m3d
-files=s:power (f=0.425)_1.rex
-
-type=s:PFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:rebuild
-result=s:1
-user_delete=s:1
-treepath=s:2D/3D Results\Power Flow\power (f=0.4) [1]
-files=s:power (f=0.4)_1,1.m3d
-files=s:power (f=0.4)_1.rex
-
-type=s:PFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:rebuild
-result=s:1
-user_delete=s:1
-treepath=s:2D/3D Results\Power Flow\power (f=0.3) [1]
-files=s:power (f=0.3)_1,1.m3d
-files=s:power (f=0.3)_1.rex
+treepath=s:2D/3D Results\Power Flow\power (f=0.15) [1]
+files=s:power (f=0.15)_1.m3d
+files=s:power (f=0.15) [1]_1.rex
 
 type=s:PFIELD3D
 problemclass=s::8:1000
@@ -1253,8 +1232,8 @@ lifetime=s:rebuild
 result=s:1
 user_delete=s:1
 treepath=s:2D/3D Results\Power Flow\power (f=0.2) [1]
-files=s:power (f=0.2)_1,1.m3d
-files=s:power (f=0.2)_1.rex
+files=s:power (f=0.2)_1.m3d
+files=s:power (f=0.2) [1]_1.rex
 
 type=s:PFIELD3D
 problemclass=s::8:1000
@@ -1263,9 +1242,64 @@ creation=s:external
 lifetime=s:rebuild
 result=s:1
 user_delete=s:1
-treepath=s:2D/3D Results\Power Flow\power (f=0.15) [1]
-files=s:power (f=0.15)_1,1.m3d
-files=s:power (f=0.15)_1.rex
+treepath=s:2D/3D Results\Power Flow\power (f=0.3) [1]
+files=s:power (f=0.3)_1.m3d
+files=s:power (f=0.3) [1]_1.rex
+
+type=s:PFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:rebuild
+result=s:1
+user_delete=s:1
+treepath=s:2D/3D Results\Power Flow\power (f=0.4) [1]
+files=s:power (f=0.4)_1.m3d
+files=s:power (f=0.4) [1]_1.rex
+
+type=s:PFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:rebuild
+result=s:1
+user_delete=s:1
+treepath=s:2D/3D Results\Power Flow\power (f=0.425) [1]
+files=s:power (f=0.425)_1.m3d
+files=s:power (f=0.425) [1]_1.rex
+
+type=s:PFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:rebuild
+result=s:1
+user_delete=s:1
+treepath=s:2D/3D Results\Power Flow\power (f=0.5) [1]
+files=s:power (f=0.5)_1.m3d
+files=s:power (f=0.5) [1]_1.rex
+
+type=s:PFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:rebuild
+result=s:1
+user_delete=s:1
+treepath=s:2D/3D Results\Power Flow\power (f=0.6) [1]
+files=s:power (f=0.6)_1.m3d
+files=s:power (f=0.6) [1]_1.rex
+
+type=s:PFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:rebuild
+result=s:1
+user_delete=s:1
+treepath=s:2D/3D Results\Power Flow\power (f=0.7) [1]
+files=s:power (f=0.7)_1.m3d
+files=s:power (f=0.7) [1]_1.rex
 
 type=s:XYSIGNAL
 subtype=s:complex
@@ -1276,6 +1310,17 @@ lifetime=s:rebuild
 result=s:1
 treepath=s:1D Results\Reference Impedance\ZRef 1(1)_orig
 files=s:ZRef1(1)_orig.sig
+
+type=s:TABLE
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+treepath=s:Tables\1D Results\Gain,3D,Max. Value (Solid Angle)
+files=s:Gain,3D,Max. Value (Solid Angle).rd1
+files=s:Gain,3D,Max. Value (Solid Angle).rd1
 
 type=s:RESULT_0D
 problemclass=s::8:1000
@@ -1609,6 +1654,36 @@ result=s:1
 parametric=s:P
 treepath=s:Farfields\Farfield Cuts\Excitation [1]\Theta=90\farfield (f=0.2)
 files=s:Farfield_Cut_farfield (f=0.2)_Theta=90_[1]_0.sig
+
+type=s:FARFIELD1DCUT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:Farfields\Farfield Cuts\Excitation [1]\Phi=0\farfield (f=0.235)
+files=s:Farfield_Cut_farfield (f=0.235)_Phi=0_[1]_0.sig
+
+type=s:FARFIELD1DCUT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:Farfields\Farfield Cuts\Excitation [1]\Phi=90\farfield (f=0.235)
+files=s:Farfield_Cut_farfield (f=0.235)_Phi=90_[1]_0.sig
+
+type=s:FARFIELD1DCUT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:surviveparchange
+result=s:1
+parametric=s:P
+treepath=s:Farfields\Farfield Cuts\Excitation [1]\Theta=90\farfield (f=0.235)
+files=s:Farfield_Cut_farfield (f=0.235)_Theta=90_[1]_0.sig
 
 type=s:FARFIELD1DCUT
 problemclass=s::8:1000

@@ -1,0 +1,290 @@
+2024-12-05 22:30:22   Defined reference frequency for open boundary condition (0.425 GHz) is larger
+                      than the lowest relevant system frequency (monitor at 0.15 GHz).
+                      Please check the Settings for PML Boundary (Simulation > Settings > Boundary
+                      Conditions > Open Boundary) to ensure accurate monitor results for the lowest
+                      frequency of interest. More...
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:22   *** Warning ***
+
+                      The monitor loss (f=0.7) is only available for dielectric or magnetic losses
+                      and will be ignored.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:22   *** Warning ***
+
+                      The monitor loss (f=0.6) is only available for dielectric or magnetic losses
+                      and will be ignored.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:22   *** Warning ***
+
+                      The monitor loss (f=0.5) is only available for dielectric or magnetic losses
+                      and will be ignored.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:22   *** Warning ***
+
+                      The monitor loss (f=0.425) is only available for dielectric or magnetic losses
+                      and will be ignored.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:22   *** Warning ***
+
+                      The monitor loss (f=0.4) is only available for dielectric or magnetic losses
+                      and will be ignored.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:22   *** Warning ***
+
+                      The monitor loss (f=0.3) is only available for dielectric or magnetic losses
+                      and will be ignored.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:22   *** Warning ***
+
+                      The monitor loss (f=0.2) is only available for dielectric or magnetic losses
+                      and will be ignored.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:22   *** Warning ***
+
+                      The monitor loss (f=0.15) is only available for dielectric or magnetic losses
+                      and will be ignored.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:23   The following farfield monitor(s) have been adjusted to model box [-507.855,
+                      507.855, -30.8549, 7.85491, -2.85491, 1662.85]:
+                        farfield (f=0.15), farfield (f=0.2), farfield (f=0.3), farfield (f=0.4),
+                      farfield (f=0.425), farfield (f=0.5), farfield (f=0.6), farfield (f=0.7).
+                      For further information please check the page "Special Solver Parameters -
+                      Solver" in the Online Help.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:24   
+                      Solver started at: 2024-12-05 22:30:24 +0100
+
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2024.0 Release from 2023-09-01 (change 1164796)
+
+2024-12-05 22:30:24   
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:24   Hardware Accelerator Device infos:
+                      - The environment variable CST_HWACC_ALLOW_UNVERIFIED_HARDWARE is set to allow all GPUs. Please consider to set 
+                      CUDA_VISIBLE_DEVICES to limit the available devices.
+                      - CUDA_MODULE_LOADING is set to: LAZY
+
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:24   ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+
+                      Stimulation at discrete port 1 
+
+
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:24   Units settings: 
+
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:30:24   The dispersive material update [Automatic] will be performed using the "Standard" update schema
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:31:41   The following discrete edge port is connected to metal material:
+                      	1
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:31:41   *** Warning ***
+
+2024-12-05 22:31:41   8249 mesh edges are represented in staircase mode and have been filled with PEC.
+                      10938 mesh edges are partially filled with PEC.
+                       More...
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:31:48   Mesh statistics:
+
+                         Hexahedral mesh type: Perfect Boundary Approximation (PBA)
+                            Version: default
+
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 16
+                            Number of calculation domains used: 40
+
+                         Used point accuracy enhancement value: 0.00%.
+                         Acceleration mode @ parallelization-node 0: CPU [requested GPU]
+                         Total valid GPU count:0
+                         PBA fill limit: 85.00% (inverse)
+                         Acceleration mode @ parallelization-node 1: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 2: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 3: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 4: CPU [requested GPU]
+2024-12-05 22:30:37      current system memory usage reached 55%
+                         Acceleration mode @ parallelization-node 5: CPU [requested GPU]
+2024-12-05 22:30:36      current system memory usage reached 55%
+                         Acceleration mode @ parallelization-node 6: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 7: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 8: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 9: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 10: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 11: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 12: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 13: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 14: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 15: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 16: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 17: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 18: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 19: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 20: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 21: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 22: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 23: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 24: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 25: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 26: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 27: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 28: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 29: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 30: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 31: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 32: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 33: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 34: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 35: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 36: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 37: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 38: CPU [requested GPU]
+                         Acceleration mode @ parallelization-node 39: CPU [requested GPU]
+
+2024-12-05 22:31:55   Boundary conditions: 
+
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+
+                        Xmin: expanded open, 4 Layer, depth 114.119 mm
+                        Xmax: expanded open, 4 Layer, depth 114.119 mm
+
+                        Ymin: expanded open, 4 Layer, depth 114.012 mm
+                        Ymax: expanded open, 4 Layer, depth 114.012 mm
+
+                        Zmin: expanded open, 4 Layer, depth 114.012 mm
+                        Zmax: expanded open, 4 Layer, depth 114.012 mm
+
+                        PML-Type: Convolution PML
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:31:55   Frequency settings: 
+
+                        Fmin:         0.15
+                        Fmax:         0.7
+                        Nfsteps(lin): 1001
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:31:56   Field update statistics:
+
+                        Number of components in total: 	15372474
+                        Number of TST and special elements:	9946
+                        Number of lossy metal components:	43524
+
+                      Subcycling state:      			Automatically deactivated
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:31:56   Port: 1
+
+2024-12-05 22:31:56     Discrete element, reference impedance = 75 Ohm
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:31:56   far field monitors are not calculated on GPU
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:31:56   far field monitors are not calculated on GPU:
+                       - ff monitors cannot be calculated on GPU in case the bounding box is defined close to structure
+
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:31:56   3D freq. monitors are calculated on GPU
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:31:56   Feature memory distribution of used GPU RAM:
+                      	 15 %	 core model
+                      	 80 %	 3D freq. monitors
+                      	  5 %	 open boundary
+                      	  0 %	 lossy metal
+                      	  0 %	 lossy metal power loss monitors
+
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:32:14   Synchronous communication is used for GPU Computing.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:36:07   
+                      --------------------------------------------------------------------------------
+2024-12-05 22:36:07   Steady state energy criterion met, solver finished successfully.
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:36:07   Frequency domain results normalized to default signal.
+
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:36:07   
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     14164                         8509612      8509612      
+                        Matrices calc.      911825                        8475585      7618453      
+                        Solver run total    1608944                       8525012      6107868      
+                        ----------------------------------------------------------------------------
+
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+
+                        Hardware:
+                           Computer name:                 	DESKTOP-2RT7LSP 
+
+                           Number of CPU threads:               10
+                           hardware type:                  	1 OpenCL GPU solver, UNVERIFIED
+                           GPU memory usage:            	  approx. 30 %
+
+                        Number of mesh cells:             	2517480
+                        Excitation duration:              	1.29256318e+001 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	10.3743 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	30104 
+                        Maximum number of time steps:     	58035 
+                        Time step width:
+                           without subcycles:             	4.454372411e-003 ns
+                           used:                          	4.454372411e-003 ns
+
+                        CAD preparation time:             	0      	s
+                        Matrix calculation time:          	84 	s
+                        Solver setup time:                	26 	s
+                        Solver loop time:                 	222 	s
+                        Solver post-processing time:      	9 	s
+                                                          	------------
+                        Total solver time:                	341 	s  ( = 0 h, 5 m, 41 s )
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:36:08   
+                        Total solver time (all cycles):      	341    	s  ( = 0 h, 5 m, 41 s )
+                        Solver initialization and clean-up:  	3      	s
+                                                             	------------
+                        Total simulation time:               	344    	s  ( = 0 h, 5 m, 44 s )
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:36:08   Solver finished at: 2024-12-05 22:36:08 +0100
+
+
+
+                      ------------------------------------------------------------------------------
+2024-12-05 22:37:19   Creating parametric 1D results for Run ID 1
+
+                      ------------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MetaResultFile version="20211011" creator="Solver">
+<MetaResultFile version="20211011" creator="Modeler">
   <MetaGeometryFile filename="model.gex" lod="1"/>
   <SimulationProperties fieldname="&lt;name missing&gt;" frequency="0" encoded_unit="&amp;U" fieldscaling="UNDEFINED"/>
   <ResultDataType vector="0" complex="0" timedomain="0" frequencymap="0"/>
@@ -9,6 +9,7 @@
   <SpecialMaterials>
     <Background type="NORMAL"/>
   </SpecialMaterials>
+  <SupplementalMesh/>
   <AuxGeometryFile filename="Model.axg"/>
   <AuxResultFile filename="PBAConnectivity.axg" add_to_tree="1" default="0" tree_type="main"/>
   <FieldFreeNodes/>
@@ -20,6 +21,7 @@
   <TimeSampling/>
   <LocalAxes/>
   <MeshViewSettings/>
+  <WaveguidePort/>
   <ResultGroups num_steps="0" transformation="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" process_mesh_group="0">
     <SharedDataWith/>
   </ResultGroups>

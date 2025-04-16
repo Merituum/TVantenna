@@ -4,10 +4,10 @@
    "Last Problem Type": "High Frequency",
    "Last Solver Type": "HF Time Domain",
    "Last Solver Type Abb": "t",
-   "Mesh Cells": "2,517,480",
+   "Mesh Cells": "2,527,470",
    "Mesh Type": "Hexahedral",
-   "Modeler Unique ID": "5:antena.cst?7fb0148d3d506c50a8b6705a1b3e19a4?17701:numberofparameters=29:port=1>mode=1>zre=75>zim=0:::k?l?w?d?d1?d10?d11?d12?d2?d3?d4?d5?d6?d7?d8?d9?l1?l10?l11?l12?l2?l3?l4?l5?l6?l7?l8?l9?r",
-   "ProjectVersion": "'# MWS Version: Version 2024.1 - Oct 16 2023 - ACIS 33.0.1 -",
+   "Modeler Unique ID": "5:antena.cst?620616196bf7a36673c6c64d3920b19f?32080:numberofparameters=29:port=1>mode=1>zre=75>zim=0:::k?l?w?d?d1?d10?d11?d12?d2?d3?d4?d5?d6?d7?d8?d9?l1?l10?l11?l12?l2?l3?l4?l5?l6?l7?l8?l9?r",
+   "ProjectVersion": "'# MWS Version: Version 2025.0 - Aug 30 2024 - ACIS 34.0.1 -",
    "Results": "Time Domain: S-Parameter",
    "Version": "3"
 }
